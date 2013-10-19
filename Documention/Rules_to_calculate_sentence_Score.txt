@@ -1,0 +1,19 @@
+Rules_to_calculate_sentence_score
+some statics about word frequency:
+max: 4188782
+min: 1
+freq > 10000, accounts for less than 5%
+freq < 10,    accounts for about 50%
+much of the words 's freq range from 5~1000
+so 
+freq < 5,    1
+freq <10,    2
+freq <100,   4
+freq <500,   8
+freq <1000,  16
+freq <5000,  32
+freq <10000, 48
+freq >10000, 60
+
+
+

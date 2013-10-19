@@ -1,0 +1,32 @@
+class WordProcessor:
+    # this class handles word processing part
+    # it deals with word-meaning lists, extract info fields to fill the database
+    # it needs to connect to a database
+    def getWordStem(self,wordTerm):
+        # only verb, adj, adj-verb have stem, we should first judge which type 
+        # the wordTerm is, then get the stem.
+        # here for sake of correction ,we list the wordtypes below:
+wordtypelist:
+名
+自
+副
+形动
+他
+感
+词组
+接续
+后缀
+外
+前缀
+连体
+形容
+量
+代
+副助
+五
+数
+副.形动
+其它
+下一
+サ
+终助
